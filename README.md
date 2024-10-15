@@ -1,1 +1,1 @@
-# projects
+# projects - HTML CSS JAVASCRIPT REACT ETC..
