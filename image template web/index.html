@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>image manipulation</title>
+</head>
+<body>
+    <h1>Merge Image and Details</h1>
+    
+    <input type="file" id="image-upload" accept="image/*">
+    
+    <div id="text-inputs">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="std">Standard:</label>
+        <input type="text" id="std">
+        <label for="sec">Section:</label>
+        <input type="text" id="sec">
+        <label for="sub">Subject:</label>
+        <input type="text" id="sub">
+        <label for="school">School:</label>
+        <input type="text" id="school">
+    </div>
+    
+    <canvas id="image-canvas" width="1000" height="500"></canvas>
+    
+    <div id="controls">
+        <button id="zoom-in">Zoom In</button>
+        <button id="zoom-out">Zoom Out</button>
+        <button id="move-up">Move Up</button>
+        <button id="move-down">Move Down</button>
+        <button id="move-left">Move Left</button>
+        <button id="move-right">Move Right</button>
+        <button id="rotate-cw">Rotate CW</button>
+        <button id="rotate-ccw">Rotate CCW</button>
+        <button id="flip-h">Flip Horizontal</button>
+        <button id="flip-v">Flip Vertical</button>
+    </div>
+    
+    <div id="merge-download-buttons">
+        <button id="merge-btn">Merge Text</button>
+        <button id="download-btn">Download</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
